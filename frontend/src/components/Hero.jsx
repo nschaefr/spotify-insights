@@ -1,4 +1,5 @@
 import phoneMock from "../assets/phone-mock.svg";
+import spotifyIcon from "../assets/spotify-icon.png";
 
 function Hero() {
   return (
@@ -9,7 +10,7 @@ function Hero() {
           <p className="font-bold text-[65px] text-spotify mt-3">
             Music Universe.
           </p>
-          <p className="mt-10 text-xl leading-[26px] font-light">
+          <p className="mt-14 text-xl leading-[26px] font-light">
             With Spotify Insights, you can delve deep into the data of your own
             Spotify account to gain exciting revelations about your listening
             habits without waiting for your yearly Spotify Wrapped. Discover
@@ -18,9 +19,12 @@ function Hero() {
             journey and get even more from your music experience. Dive in and be
             prepared to be amazed by the insights!
           </p>
-          <div className="mt-10">
-            <button className="font-bold px-2 py-1 rounded-xl bg-spotify hover:bg-spotifyhover">
-              <p className="py-3 px-8">Sign In with Spotify</p>
+          <div className="mt-12">
+            <button className="font-bold px-2 py-1 flex rounded-xl bg-spotify hover:bg-spotifyhover">
+              <div className="flex items-center py-2 px-3">
+                <p className="pr-2">Sign In with</p>
+                <img src={spotifyIcon} width={"30px"} />
+              </div>
             </button>
           </div>
         </div>

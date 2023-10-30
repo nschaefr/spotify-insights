@@ -11,7 +11,7 @@ function NavBar() {
               Spotify Insights
             </p>
           </div>
-          <div className="w-2/3 flex justify-between items-center font-normal text-sm">
+          <div className="w-2/3 flex justify-between items-center font-medium text-sm">
             <div className="cursor-pointer hover:mt-2">Top Tracks</div>
             <div className="cursor-pointer hover:mt-2">Top Artists</div>
             <div className="cursor-pointer hover:mt-2">Top Genre</div>
