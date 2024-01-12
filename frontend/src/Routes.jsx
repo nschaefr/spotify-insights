@@ -1,15 +1,14 @@
 import { useContext } from "react";
-// import { UserContext } from "./components/utils/user-context";
+import { UserContext } from "./utils/user-context";
 import InformationPage from "./pages/InformationPage";
+import ProfilePage from "./pages/ProfilePage";
 
 function Routes() {
-  // const { username } = useContext(UserContext);
+  const { username } = useContext(UserContext);
 
-  /** 
   if (username) {
-    return <ChatPage />;
+    return <ProfilePage />;
   }
-  */
 
   return <InformationPage />;
 }

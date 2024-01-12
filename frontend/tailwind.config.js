@@ -7,6 +7,7 @@ export default {
         ocean: "#222831",
         spotify: "#1DB954",
         spotifyhover: "#14873d",
+        logout: "#e32d20",
       },
     },
   },

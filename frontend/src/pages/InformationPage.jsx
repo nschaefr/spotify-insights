@@ -1,11 +1,11 @@
 import NavBar from "../components/NavBar";
-import Hero from "../components/Hero";
+import InfoHero from "../components/InfoHero";
 
 function InformationPage() {
   return (
     <div>
       <NavBar />
-      <Hero />
+      <InfoHero />
     </div>
   );
 }

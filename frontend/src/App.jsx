@@ -1,11 +1,14 @@
-// import { ContextProvider } from "./components/utils/user-context";
+import { ContextProvider } from "./utils/user-context";
 import Routes from "./Routes.jsx";
+import axios from "axios";
+
+axios.defaults.baseURL = "http://localhost:8080";
 
 function App() {
   return (
-    <div>
+    <ContextProvider>
       <Routes />
-    </div>
+    </ContextProvider>
   );
 }
 
